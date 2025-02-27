@@ -1,0 +1,17 @@
+[
+    {
+      "date": "Feb 27, 2025",
+      "title": "Understanding React Props",
+      "description": "A beginner-friendly guide to passing data in React components.",
+      "href": "/articles/react-props",
+      "readTime": "5"
+    },
+    {
+      "date": "Feb 26, 2025",
+      "title": "CSS Tips for Beginners",
+      "description": "Learn how to style your components effectively using Tailwind CSS.",
+      "href": "/articles/css-tips",
+      "readTime": "3"
+    }
+  ]
+  
