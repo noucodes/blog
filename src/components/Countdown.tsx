@@ -40,30 +40,30 @@ const Countdown = () => {
   const { days, hours, minutes, seconds } = calculateTime(timeRemaining);
   return (
     <div className="flex flex-col justify-center items-center w-full h-screen font-display">
-      <h2 className="text-center w-fit mb-8 text-5xl font-bold">
+      <h2 className="text-center w-fit mb-8 text-2xl md:text-4xl lg:text-5xl font-bold">
         READY TO LAUNCH
       </h2>
-      <div className="row w-fit grid grid-cols-4 gap-8 text-2xl">
-        <div className="days rounded-lg shadow-lg p-8 text-center bg-white">
-          <p className="text-center font-extrabold text-7xl text-zinc-950">
+      <div className="row w-fit grid grid-cols-4 gap-2 md:gap-8 text-xs md:text-base lg:text-2xl">
+        <div className="days rounded-lg shadow-lg p-2 md:p-6 lg:p-8 text-center bg-white">
+          <p className="text-center font-extrabold text-2xl md:text-4xl lg:text-7xl text-zinc-950">
             {days}
           </p>
           <span className="text-center font-medium text-zinc-500">DAYS</span>
         </div>
-        <div className="hours rounded-lg shadow-lg p-8 text-center bg-white">
-          <p className="text-center font-extrabold text-7xl text-zinc-950">
+        <div className="hours rounded-lg shadow-lg p-2 md:p-6 lg:p-8 text-center bg-white">
+          <p className="text-center font-extrabold text-2xl md:text-4xl lg:text-7xl text-zinc-950">
             {hours}
           </p>
           <span className="text-center font-medium text-zinc-500">HOURS</span>
         </div>
-        <div className="minutes rounded-lg shadow-lg p-8 text-center bg-white">
-          <p className="text-center font-extrabold text-7xl text-zinc-950">
+        <div className="minutes rounded-lg shadow-lg p-2 md:p-6 lg:p-8 text-center bg-white">
+          <p className="text-center font-extrabold text-2xl md:text-4xl lg:text-7xl text-zinc-950">
             {minutes}
           </p>
           <span className="text-center font-medium text-zinc-500">MINUTES</span>
         </div>
-        <div className="seconds rounded-lg shadow-lg p-8 text-center bg-white">
-          <p className="text-center font-extrabold text-7xl text-zinc-950">
+        <div className="seconds rounded-lg shadow-lg p-2 md:p-6 lg:p-8 text-center bg-white">
+          <p className="text-center font-extrabold text-2xl md:text-4xl lg:text-7xl text-zinc-950">
             {seconds}
           </p>
           <span className="text-center font-medium text-zinc-500">SECONDS</span>
