@@ -43,7 +43,7 @@ const Countdown = () => {
       <h2 className="text-center w-fit mb-8 text-5xl font-bold">
         READY TO LAUNCH
       </h2>
-      <div className="row flex w-fit grid grid-cols-4 gap-8 text-2xl">
+      <div className="row w-fit grid grid-cols-4 gap-8 text-2xl">
         <div className="days rounded-lg shadow-lg p-8 text-center bg-white">
           <p className="text-center font-extrabold text-7xl text-zinc-950">
             {days}
