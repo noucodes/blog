@@ -7,7 +7,7 @@ const Sidemenu = () => {
       <h3 className="Name font-bold mb-3">Elton John Escudero</h3>
       <p className="Description font-light mb-2">
         Junior Web Developer and Computer Engineering student with experience in
-        full-stack development, automation, and databases. Passionate about
+        Full-Stack development, automation, and databases. Passionate about
         software development, Linux, Vim, and remote servers, with a strong
         problem-solving mindset.
       </p>
